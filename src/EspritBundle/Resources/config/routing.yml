@@ -1,0 +1,18 @@
+home:
+    path:     /
+    defaults: { _controller: FOSUserBundle:Security:login }
+
+membre:
+    path:     /membre
+    defaults: { _controller: EspritBundle:Default:index }
+
+admin:
+    path:     /admin/
+    defaults: { _controller: EspritBundle:Default:layout }
+map:
+    path:     /membre/map
+    defaults: { _controller: EspritBundle:Default:map }
+logout:
+    path:     /logout
+    defaults: { _controller: EspritBundle:Default:logout }
+
