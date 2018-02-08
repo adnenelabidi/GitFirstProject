@@ -73,5 +73,5 @@ fos_user:
     firewall_name: main
     user_class: AppBundle\Entity\User
     from_email:
-      address: "ladnene@yahoo.fr"
+      address: "ladnene20@yahoo.fr"
       sender_name: "Examin"
